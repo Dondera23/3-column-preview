@@ -1,0 +1,189 @@
+/* Mobile view Section */
+@media only screen and (max-width:599px){
+main{
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
+.container{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+
+  div:first-child{
+    border-radius: 10px 10px 0 0;
+    background-color: hsl(31, 77%, 52%);
+  }
+
+ div:nth-child(2){
+  background-color: hsl(184, 100%, 22%);
+ }
+
+ div:last-child{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+ }
+
+
+  div{
+    padding: 2.55rem;
+
+   p{
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsla(0, 0%, 100%, 0.75);
+   }
+
+  h1{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+  }
+
+  }
+
+ button{
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  width: 145px;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  margin: 10px 0 5px 0;
+ }
+
+ .card1button{
+  color: hsl(31, 77%, 52%);
+ }
+
+ .card2button{
+  color: hsl(184, 100%, 22%);
+ }
+
+ .card3button{
+  color: hsl(179, 100%, 13%);
+ }
+
+}
+}
+
+
+/* Larger Screens Section */
+
+@media only screen and (min-width:600px){
+main{
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   border-radius: 10px 10px;
+ 
+   div:first-child{
+    border-radius: 10px 0 0 10px;
+    background-color: hsl(31, 77%, 52%);
+   }
+
+  div:nth-child(2){
+    background-color: hsl(184, 100%, 22%);
+  }
+
+   div:last-child{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+   }
+
+   div{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+  
+
+     p{
+      font-family: "Lexend Deca", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color: hsla(0, 0%, 100%, 0.75);
+     }
+
+     h1{
+      text-transform: uppercase;
+      color: hsl(0, 0%, 95%);
+     }
+
+     img{
+      width: 28%;
+     }
+   }
+    button{
+      font-family: "Lexend Deca", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      border-radius: 50px;
+      width: 90px;
+      padding: 0.4rem;
+      background-color: hsl(0, 0%, 95%);
+      border: none;
+    }
+
+   .card1button:hover{
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+   }
+   .card2button:hover{
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+   }
+   .card3button:hover{
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+   }
+
+    .card1button{
+      color: hsl(31, 77%, 52%);
+    }
+    .card2button{
+      color: hsl(184, 100%, 22%);
+    }
+    .card3button{
+      color: hsl(179, 100%, 13%);
+    }
+}
+ 
+}
